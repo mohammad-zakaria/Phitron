@@ -14,7 +14,7 @@ int main()
         {
             cin>>arr[i];
         }
-        int type, first_index, addmoney, last_index;
+        int type, first_index, addmoney, last_index; 
         // int pre[n]; pre[0] = arr[0];
         // for(int j = 1; j<n; j++)
         // {

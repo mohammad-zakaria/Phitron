@@ -20,9 +20,14 @@ int main()
         {
             int q1,q2;
             cin>>q1>>q2;
-            int res[q2-q1] = sort(arr[q1-1],arr[q2])
-          
-            cout<<res[0]<<endl;
+            int small = arr[q1-1];
+
+            for(int l = q1-1;l<q2;l++)
+            {
+                if(arr[ l] <small) small = arr[l];
+
+            }
+            cout<<small<<endl;
         }
      
     }
