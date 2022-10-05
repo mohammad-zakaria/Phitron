@@ -90,5 +90,14 @@ public:
         else check = top->value;
         return check;
     }
-
+    // find mid element
+    S mid(){
+        int popCount = size();
+        int check = 0;
+        while(check != popCount/2){
+            pop();
+            check++;
+        }
+        return top->value;
+    }
 };
