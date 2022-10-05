@@ -91,7 +91,7 @@ int main()
     int n, val;
     // input the number of nodes
     cin >> n;
-        int M, N;
+    int M, N;
     // 
     cin >> M >> N;
     // input the values of nodes

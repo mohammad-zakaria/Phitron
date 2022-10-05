@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 const int
     totalSize = 110;
 struct CreateNode
@@ -8,6 +9,7 @@ struct CreateNode
     int second;
     int third;
 };
+
 CreateNode node[totalSize];
 int n;
 queue<int> Queue;
