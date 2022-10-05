@@ -5,6 +5,8 @@
         "*.tcc": "cpp",
         "exception": "cpp",
         "stack": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "string_view": "cpp",
+        "regex": "cpp"
     }
 }
