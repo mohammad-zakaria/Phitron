@@ -28,7 +28,7 @@ public:
 
     }
     // enqueue --> push
-    void push(int value)
+    void push(Q value)
     {
         Node <Q> *newNode = new Node<Q>(value);
         if (front == NULL)
